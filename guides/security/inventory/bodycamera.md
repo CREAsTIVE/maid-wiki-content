@@ -1,6 +1,16 @@
+---
+title: bodycamera
+description: 
+published: true
+date: 2026-06-27T23:35:38.743Z
+tags: 
+editor: markdown
+dateCreated: 2026-06-27T23:32:34.225Z
+---
+
 # Бодикамера
 
-![bodycamera_active.png](./bodycamera_active.png)
+![bodycamera_active.png](./bodycamera/bodycamera_active.png)
 
 **Бодикамера** - новейшая и до безобразия простая разработка НТ. Представляет собой нательную камеру, транслирующую всё, что происходит вокруг на монитор беспроводных камер и деревянный телевизор.
 
