@@ -15,7 +15,7 @@ dateCreated: 2026-06-17T15:28:54.108Z
 <details>
 <summary class="flex all-center">
 
-![](/role/_mask.png =64x)
+![](/roles/_mask.png =64x)
 
 {.inline}
 
@@ -30,7 +30,7 @@ dateCreated: 2026-06-17T15:28:54.108Z
   <details>
 <summary class="flex all-center">
 
-![](/role/traitor.png =64x)
+![](/roles/traitor.png =64x)
 
 {.inline}
 
@@ -51,7 +51,7 @@ dateCreated: 2026-06-17T15:28:54.108Z
 <details>
 <summary class="flex all-center">
 
-![](/role/nuclearoperative.png =64x)
+![](/roles/nuclearoperative.png =64x)
 
 {.inline}
 
@@ -72,7 +72,7 @@ dateCreated: 2026-06-17T15:28:54.108Z
 <details>
 <summary class="flex all-center">
 
-![](/role/changeling.gif =64x)
+![](/roles/changeling.gif =64x)
 
 {.inline}
 
@@ -91,7 +91,7 @@ dateCreated: 2026-06-17T15:28:54.108Z
 <details>
 <summary class="flex all-center">
 
-![](/role/patientzero.png =64x)
+![](/roles/patientzero.png =64x)
 
 {.inline}
 
@@ -112,7 +112,7 @@ dateCreated: 2026-06-17T15:28:54.108Z
 <details>
 <summary class="flex all-center">
 
-![](/role/cultist.gif =64x)
+![](/roles/cultist.gif =64x)
 
 {.inline}
 
@@ -137,7 +137,7 @@ dateCreated: 2026-06-17T15:28:54.108Z
 <details>
 <summary class="flex all-center">
 
-![](/role/revolution.png =64x)
+![](/roles/revolution.png =64x)
 
 {.inline}
 
@@ -162,7 +162,7 @@ dateCreated: 2026-06-17T15:28:54.108Z
 <details>
 <summary class="flex all-center">
 
-![](/role/wizard_real.png =64x)
+![](/roles/wizard_real.png =64x)
 
 {.inline}
 

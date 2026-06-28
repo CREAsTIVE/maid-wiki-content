@@ -1,5 +1,5 @@
 ---
-title: soul
+title: Душа
 description: 
 published: true
 date: 2026-06-27T23:34:37.530Z

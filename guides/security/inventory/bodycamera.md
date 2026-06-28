@@ -1,5 +1,5 @@
 ---
-title: bodycamera
+title: Бодикамера
 description: 
 published: true
 date: 2026-06-27T23:35:38.743Z
