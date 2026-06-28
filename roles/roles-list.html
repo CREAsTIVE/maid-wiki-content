@@ -2,19 +2,70 @@
 title: Roles list template
 description: 
 published: false
-date: 2026-06-28T07:30:27.261Z
+date: 2026-06-28T13:58:19.205Z
 tags: 
 editor: code
 dateCreated: 2026-06-28T06:27:04.698Z
 -->
 
-<style scoped>
-  .test {
-    width: 100px;
-    height: 100px;
-    background-color: purple;
+<style>
+  .v-main .contents .t-role-passport {
+    --t-role-passport-base-color: var(--t-role-passport-base-color);
+
+    --t-role-passport-base-color-command: #465298;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .v-main .contents .t-role-passport {
+    
   }
 </style>
-<div class="test"> 
 
+<div 
+  class="t-role-passport" 
+  style="--t-role-passport-base-color: var(--t-role-passport-base-color-{{department-color}});"
+>
+  <div class="t-role-passport-title">
+    {{department-name}}
+  </div>
+  <div class="t-role-passport-content">
+    <img src=""/>
+    <div class="t-role-passport-desc">
+      <div class="t-role-passport-name">{{name}}</div>
+      <div class="t-role-passport-line"></div>
+      <div class="t-role-passport-props">
+
+        <div class="t-role-passport-prop">
+          <div class="t-role-passport-prop-name">
+            <strong>Сложность</strong>
+          </div>
+          <div class="t-role-passport-prop-value">{{difficulty}}</div>
+        </div>
+        
+        <div class="t-role-passport-prop">
+          <div class="t-role-passport-prop-name">
+            <strong>Обязанности</strong>
+          </div>
+          <div class="t-role-passport-prop-value">{{responsibilities}}</div>
+        </div>
+
+        <div class="t-role-passport-prop">
+          <div class="t-role-passport-prop-name">
+            <strong>Руководители</strong>
+          </div>
+          <div class="t-role-passport-prop-value">{{command}}</div>
+        </div>
+
+        <div class="t-role-passport-prop">
+          <div class="t-role-passport-prop-name">
+            <strong>Руководства</strong>
+          </div>
+          <div class="t-role-passport-prop-value">{{guides}}</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>
