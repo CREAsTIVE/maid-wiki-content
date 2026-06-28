@@ -2,18 +2,20 @@
 title: Roles list template
 description: 
 published: false
-date: 2026-06-28T15:09:20.977Z
+date: 2026-06-28T15:28:36.547Z
 tags: 
 editor: code
 dateCreated: 2026-06-28T06:27:04.698Z
 -->
 
 <style>
-  .v-main .contents .t-role-passport {
+  .v-main .contents .t-role-passport-container {
     --t-role-passport-base-color: #465298;
 
     --t-role-passport-base-color-command: #465298;
+  }
 
+  .v-main .contents .t-role-passport {
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -46,47 +48,49 @@ dateCreated: 2026-06-28T06:27:04.698Z
 </style>
 
 <div 
-  class="t-role-passport" 
+  class="t-role-passport-container" 
   style="--t-role-passport-base-color: var(--t-role-passport-base-color-{{department-color}});"
 >
-  <div class="t-role-passport-title">
-    <div>{{department-name}}</div>
-  </div>
-  <div class="t-role-passport-content">
-    <div class="t-role-passport-img"><img src=""/></div>
-    <div class="t-role-passport-desc">
-      <div class="t-role-passport-name">{{name}}</div>
-      <div class="t-role-passport-line"></div>
-      <div class="t-role-passport-props">
+  <div class="t-role-passport">
+    <div class="t-role-passport-title">
+      <div>{{department-name}}</div>
+    </div>
+    <div class="t-role-passport-content">
+      <div class="t-role-passport-img"><img src=""/></div>
+      <div class="t-role-passport-desc">
+        <div class="t-role-passport-name">{{name}}</div>
+        <div class="t-role-passport-line"></div>
+        <div class="t-role-passport-props">
 
-        <div class="t-role-passport-prop">
-          <div class="t-role-passport-prop-name">
-            <strong>Сложность</strong>
+          <div class="t-role-passport-prop">
+            <div class="t-role-passport-prop-name">
+              <strong>Сложность</strong>
+            </div>
+            <div class="t-role-passport-prop-value">{{difficulty}}</div>
           </div>
-          <div class="t-role-passport-prop-value">{{difficulty}}</div>
-        </div>
-        
-        <div class="t-role-passport-prop">
-          <div class="t-role-passport-prop-name">
-            <strong>Обязанности</strong>
+          
+          <div class="t-role-passport-prop">
+            <div class="t-role-passport-prop-name">
+              <strong>Обязанности</strong>
+            </div>
+            <div class="t-role-passport-prop-value">{{responsibilities}}</div>
           </div>
-          <div class="t-role-passport-prop-value">{{responsibilities}}</div>
-        </div>
 
-        <div class="t-role-passport-prop">
-          <div class="t-role-passport-prop-name">
-            <strong>Руководители</strong>
+          <div class="t-role-passport-prop">
+            <div class="t-role-passport-prop-name">
+              <strong>Руководители</strong>
+            </div>
+            <div class="t-role-passport-prop-value">{{command}}</div>
           </div>
-          <div class="t-role-passport-prop-value">{{command}}</div>
-        </div>
 
-        <div class="t-role-passport-prop">
-          <div class="t-role-passport-prop-name">
-            <strong>Руководства</strong>
+          <div class="t-role-passport-prop">
+            <div class="t-role-passport-prop-name">
+              <strong>Руководства</strong>
+            </div>
+            <div class="t-role-passport-prop-value">{{guides}}</div>
           </div>
-          <div class="t-role-passport-prop-value">{{guides}}</div>
-        </div>
 
+        </div>
       </div>
     </div>
   </div>
