@@ -2,7 +2,7 @@
 title: Капитан
 description: 
 published: false
-date: 2026-06-28T18:54:14.950Z
+date: 2026-06-28T18:55:35.457Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:33.648Z
@@ -17,7 +17,7 @@ dateCreated: 2026-06-28T01:29:33.648Z
          name='Капитан'
          prop-difficulty="Сложная"
          prop-responsibilities='Глава объекта. Занимается руководством всей станции.'
-         prop-command='<a href="/roles/centcomm"/>'
+         prop-command='<a href="/roles/centcomm">ЦентКом</a>'
 				 prop-guides=''/>
 
 **Сложность:** Сложная
