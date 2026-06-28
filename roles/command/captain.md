@@ -2,7 +2,7 @@
 title: Капитан
 description: 
 published: false
-date: 2026-06-28T18:55:35.457Z
+date: 2026-06-28T18:56:15.521Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:33.648Z
@@ -19,12 +19,6 @@ dateCreated: 2026-06-28T01:29:33.648Z
          prop-responsibilities='Глава объекта. Занимается руководством всей станции.'
          prop-command='<a href="/roles/centcomm">ЦентКом</a>'
 				 prop-guides=''/>
-
-**Сложность:** Сложная
-
-**Обязанности:** Глава объекта. Занимается руководством всей станции.
-**Руководители**: [ЦентКом](/roles/centralcommand)
-**Руководства**: [Иерархия Командования](/guides/hierarchyofcommand) • [Особо ценные предметы](/guides/especiallyvaluableitems)
 
 Вы — капитан, верхушка в [цепочке командования](/guides/hierarchyofcommand). Ваша обязанность — обеспечивать стабильность и эффективность работы станции, а также выполнять распоряжения [ЦентКома](/roles/centralcommand).
 
