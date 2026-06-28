@@ -2,7 +2,7 @@
 title: hunter
 description: 
 published: true
-date: 2026-06-28T19:07:42.161Z
+date: 2026-06-28T19:08:20.601Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:18.412Z
@@ -18,7 +18,7 @@ dateCreated: 2026-06-28T01:29:18.412Z
          name='Охотник'
          prop-difficulty="Сложная"
          prop-responsibilities='Обучение и помощь <a href="/roles/cargo/utilizer">утилизаторам</a>.'
-         prop-command='<a href="/roles/command/quartimaster">Квартирмейстер</a>'
+         prop-command='<a href="/roles/command/quartermaster">Квартирмейстер</a>'
 				 prop-guides=''/>
 
 **Охотник** - сотрудник отдела снабжения, который должен обучать новичков своего отдела.
