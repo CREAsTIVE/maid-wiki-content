@@ -2,7 +2,7 @@
 title: TEMPLATE | Лист ролей
 description: 
 published: false
-date: 2026-06-28T18:53:59.307Z
+date: 2026-06-28T18:59:25.510Z
 tags: 
 editor: code
 dateCreated: 2026-06-28T06:27:04.698Z
@@ -26,6 +26,8 @@ department-color: Цвет карточки. Один из:
   antag
 
 department-name: Наименование отдела, Например: "Коммандование"
+
+department-url: Ссылка на статью про данный отдел
 
 char-img: Путь до файла изображения персонажа
 
@@ -162,7 +164,7 @@ prop-guides
 >
   <div class="t-role-passport">
     <div class="t-role-passport-title">
-      <div><strong>{{department-name}}</strong></div>
+      <div><strong><a href="{{department-url}}">{{department-name}}</a></strong></div>
     </div>
     <div class="t-role-passport-content">
       <div class="t-role-passport-img"><img src="{{char-img}}"/></div>
