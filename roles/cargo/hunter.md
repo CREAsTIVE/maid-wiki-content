@@ -2,7 +2,7 @@
 title: Охотник
 description: 
 published: true
-date: 2026-06-28T19:09:42.575Z
+date: 2026-06-28T19:12:05.330Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:18.412Z
@@ -11,7 +11,7 @@ dateCreated: 2026-06-28T01:29:18.412Z
 <include path='roles/template-roles-list'
          department-color='cargo'
          department-name='Карго'
-         department-url='/roles/cargo'
+         department-url='roles/cargo'
          char-img='./hunter/char.png'
          name='Охотник'
          prop-difficulty="Сложная"
