@@ -2,12 +2,44 @@
 title: TEMPLATE | Лист ролей
 description: 
 published: false
-date: 2026-06-28T18:36:45.848Z
+date: 2026-06-28T18:43:30.979Z
 tags: 
 editor: code
 dateCreated: 2026-06-28T06:27:04.698Z
 -->
 
+<!-- 
+СВОЙСТВА:
+
+department-color: Цвет карточки. Один из:
+  command, 
+  centralcommand, 
+  security, 
+  engineer, 
+  research, 
+  medical, 
+  cargo, 
+  justice, 
+  service, 
+  spirital, 
+  synthetics, 
+  antag
+
+department-name: Наименование отдела, Например: "Коммандование"
+
+char-img: Путь до файла изображения персонажа
+
+name: Имя профессии, например: "Капитан"
+
+prop-difficulty
+
+prop-responsibilities
+
+prop-command
+
+prop-guides
+
+-->
 <style>
   .v-main .contents .t-role-passport-container {
     --t-role-passport-base-color: #465298;
@@ -134,31 +166,39 @@ dateCreated: 2026-06-28T06:27:04.698Z
         <div class="t-role-passport-props">
 
           <div class="t-role-passport-prop">
-            <div class="t-role-passport-prop-name">
-              <strong>Сложность</strong>
-            </div>
-            <div class="t-role-passport-prop-value">{{difficulty}}</div>
+            <strong>
+              <div class="t-role-passport-prop-name">
+                Сложность
+              </div>
+            </strong>
+            <div class="t-role-passport-prop-value">{{prop-difficulty}}</div>
           </div>
           
           <div class="t-role-passport-prop">
-            <div class="t-role-passport-prop-name">
-              <strong>Обязанности</strong>
-            </div>
-            <div class="t-role-passport-prop-value">{{responsibilities}}</div>
+            <strong>
+              <div class="t-role-passport-prop-name">
+                Обязанности
+              </div>
+            </strong>
+            <div class="t-role-passport-prop-value">{{prop-responsibilities}}</div>
           </div>
 
           <div class="t-role-passport-prop">
-            <div class="t-role-passport-prop-name">
-              <strong>Руководители</strong>
-            </div>
-            <div class="t-role-passport-prop-value">{{command}}</div>
+            <strong>
+              <div class="t-role-passport-prop-name">
+                Руководители
+              </div>
+            </strong>
+            <div class="t-role-passport-prop-value">{{prop-command}}</div>
           </div>
 
           <div class="t-role-passport-prop">
-            <div class="t-role-passport-prop-name">
-              <strong>Руководства</strong>
-            </div>
-            <div class="t-role-passport-prop-value">{{guides}}</div>
+            <strong>
+              <div class="t-role-passport-prop-name">
+                Руководства
+              </div>
+            </strong>
+            <div class="t-role-passport-prop-value">{{prop-guides}}</div>
           </div>
 
         </div>
