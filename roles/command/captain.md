@@ -2,7 +2,7 @@
 title: Капитан
 description: 
 published: false
-date: 2026-06-28T19:04:32.694Z
+date: 2026-06-28T19:12:36.492Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:33.648Z
@@ -13,7 +13,7 @@ dateCreated: 2026-06-28T01:29:33.648Z
 <include path='roles/template-roles-list'
          department-color='command'
          department-name='Коммандование'
-         department-url='/roles/command'
+         department-url='roles/command'
          char-img='./captain/char.png'
          name='Капитан'
          prop-difficulty="Сложная"
