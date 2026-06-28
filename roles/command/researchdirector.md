@@ -1,3 +1,13 @@
+---
+title: Научный Руководитель
+description: 
+published: false
+date: 2026-06-28T02:29:25.695Z
+tags: 
+editor: markdown
+dateCreated: 2026-06-28T01:30:33.857Z
+---
+
 [Командование](/roles/command)
 
 ![](./researchdirector/char.png)
