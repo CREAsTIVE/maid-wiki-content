@@ -1,8 +1,8 @@
 ---
-title: hunter
+title: Охотник
 description: 
 published: true
-date: 2026-06-28T19:08:20.601Z
+date: 2026-06-28T19:09:28.146Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:18.412Z
