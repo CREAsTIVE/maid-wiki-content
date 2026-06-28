@@ -2,17 +2,23 @@
 title: Капитан
 description: 
 published: false
-date: 2026-06-28T02:28:51.985Z
+date: 2026-06-28T18:50:15.799Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:33.648Z
 ---
 
-[Командование](/roles/command)
-
-![](./captain/char.png)
-
 # Капитан
+
+<include path='roles/roles-list'
+         department-color='command'
+         department-name='Коммандование'
+         char-img='./captain/char.png'
+         name='Капитан'
+         prop-difficulty="Сложная"
+         prop-responsibilities='Глава объекта. Занимается руководством всей станции.'
+         prop-command='<a href="/roles/centcomm"/>'
+				 prop-guides=''/>
 
 **Сложность:** Сложная
 
