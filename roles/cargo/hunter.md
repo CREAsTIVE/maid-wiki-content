@@ -2,13 +2,11 @@
 title: Охотник
 description: 
 published: true
-date: 2026-06-28T19:09:28.146Z
+date: 2026-06-28T19:09:42.575Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:18.412Z
 ---
-
-# Охотник
 
 <include path='roles/template-roles-list'
          department-color='cargo'
