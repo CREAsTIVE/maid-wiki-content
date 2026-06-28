@@ -1,3 +1,13 @@
+---
+title: Капитан
+description: 
+published: false
+date: 2026-06-28T02:28:51.985Z
+tags: 
+editor: markdown
+dateCreated: 2026-06-28T01:29:33.648Z
+---
+
 [Командование](/roles/command)
 
 ![](./captain/char.png)
