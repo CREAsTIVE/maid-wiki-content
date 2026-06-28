@@ -2,7 +2,7 @@
 title: Roles list template
 description: 
 published: false
-date: 2026-06-28T17:42:02.603Z
+date: 2026-06-28T17:49:22.918Z
 tags: 
 editor: code
 dateCreated: 2026-06-28T06:27:04.698Z
@@ -33,7 +33,13 @@ dateCreated: 2026-06-28T06:27:04.698Z
   }
 
   .v-main .contents .t-role-passport-title {
-    background: repeating-linear-gradient(45deg,#606dbc,#606dbc 10px,#465298 10px,#465298 20px);
+    background: repeating-linear-gradient(
+      45deg,
+      var(--t-role-passport-base-color),
+      var(--t-role-passport-base-color) 10px,
+      color-mix(in hsl, var(--t-role-passport-base-color), white 20%) 10px,
+      color-mix(in hsl, var(--t-role-passport-base-color), white 20%) 20px
+    );
     display: flex;
     align-content: center;
     justify-content: center;
@@ -64,6 +70,11 @@ dateCreated: 2026-06-28T06:27:04.698Z
     margin: 16px;
   }
 
+  .v-main .contents .t-role-passport-img img {
+    width: 100%;
+    height: 100%;
+  }
+
   .v-main .contents .t-role-passport-desc {
     flex-grow: 1;
   }
@@ -84,7 +95,7 @@ dateCreated: 2026-06-28T06:27:04.698Z
   }
 
   .v-main .contents .t-role-passport-line {
-    height: 5px;
+    height: 2px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     margin: 10px 0px;
@@ -100,7 +111,7 @@ dateCreated: 2026-06-28T06:27:04.698Z
       <div><strong>{{department-name}}</strong></div>
     </div>
     <div class="t-role-passport-content">
-      <div class="t-role-passport-img"><img src=""/></div>
+      <div class="t-role-passport-img"><img src="{{char-img}}"/></div>
       <div class="t-role-passport-desc">
         <div class="t-role-passport-name">{{name}}</div>
         <div class="t-role-passport-line"></div>
