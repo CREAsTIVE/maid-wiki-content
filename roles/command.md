@@ -2,23 +2,13 @@
 title: command
 description: 
 published: true
-date: 2026-06-28T18:49:25.924Z
+date: 2026-06-28T18:49:44.635Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:26.122Z
 ---
 
 # Командование станции
-
-<include path='roles/roles-list'
-         department-color='command'
-         department-name='Коммандование'
-         char-img='./captain/char.png'
-         name='Капитан'
-         prop-difficulty="Сложная"
-         prop-responsibilities='Глава объекта. Занимается руководством всей станции.'
-         prop-command='<a href="/roles/centcomm"/>'
-				 prop-guides=''/>
 
 [Капитан](/roles/captain)
 
