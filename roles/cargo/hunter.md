@@ -1,14 +1,25 @@
-[Отдел Снабжения](/roles/supplydepartment)
-
-![](./hunter/char.png)
+---
+title: hunter
+description: 
+published: true
+date: 2026-06-28T19:07:42.161Z
+tags: 
+editor: markdown
+dateCreated: 2026-06-28T01:29:18.412Z
+---
 
 # Охотник
 
-**Сложность:** Сложная
-
-**Обязанности:** Обучение и помощь [утилизаторам](/roles/utilizer).
-**Руководители**: [Квартирмейстер](/roles/quartermaster)
-**Руководства**: [Магнит обломков](/guides/debrismagnet)
+<include path='roles/template-roles-list'
+         department-color='cargo'
+         department-name='Карго'
+         department-url='/roles/cargo'
+         char-img='./hunter/char.png'
+         name='Охотник'
+         prop-difficulty="Сложная"
+         prop-responsibilities='Обучение и помощь <a href="/roles/cargo/utilizer">утилизаторам</a>.'
+         prop-command='<a href="/roles/command/quartimaster">Квартирмейстер</a>'
+				 prop-guides=''/>
 
 **Охотник** - сотрудник отдела снабжения, который должен обучать новичков своего отдела.
 
