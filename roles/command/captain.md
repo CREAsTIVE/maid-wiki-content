@@ -2,7 +2,7 @@
 title: Капитан
 description: 
 published: false
-date: 2026-06-29T21:54:32.449Z
+date: 2026-06-29T21:54:46.672Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:33.648Z
@@ -10,7 +10,7 @@ dateCreated: 2026-06-28T01:29:33.648Z
 
 # Капитан
 
-<include path='roles/template-role-card'
+<include path='roles/template-role-passport'
          department-color='command'
          department-name='Коммандование'
          department-url='roles/command'
