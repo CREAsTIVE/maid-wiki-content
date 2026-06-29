@@ -2,7 +2,7 @@
 title: TEMPLATE | Карта роли
 description: 
 published: true
-date: 2026-06-29T05:06:09.993Z
+date: 2026-06-29T05:09:17.822Z
 tags: 
 editor: code
 dateCreated: 2026-06-29T05:04:09.415Z
@@ -67,6 +67,28 @@ dateCreated: 2026-06-29T05:04:09.415Z
     gap: 16px;
     padding: 16px;
   }
+
+  .v-main .contents .t-role-card-img {
+    flex-grow: 0;
+    width: 192px;
+    height: 192px;
+  }
+
+  .v-main .contents .t-role-card-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .v-main .contents .t-role-passport-title a {
+    color: inherit !important;
+  }
+
+  .v-main .contents .t-role-passport-line {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 10px 0px;
+  }
 </style>
 
 <div 
@@ -82,5 +104,7 @@ dateCreated: 2026-06-29T05:04:09.415Z
       
       </div>
     </div>
+    <div class="t-role-card-line"></div>
+    {{desc}}
   </div>
 </div>
