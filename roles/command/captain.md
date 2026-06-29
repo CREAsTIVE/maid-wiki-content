@@ -2,7 +2,7 @@
 title: Капитан
 description: 
 published: false
-date: 2026-06-28T19:12:36.492Z
+date: 2026-06-29T21:54:09.748Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:33.648Z
