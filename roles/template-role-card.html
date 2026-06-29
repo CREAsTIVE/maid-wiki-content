@@ -2,7 +2,7 @@
 title: TEMPLATE | Карта роли
 description: 
 published: true
-date: 2026-06-29T05:17:15.673Z
+date: 2026-06-29T05:18:45.808Z
 tags: 
 editor: code
 dateCreated: 2026-06-29T05:04:09.415Z
@@ -88,6 +88,10 @@ dateCreated: 2026-06-29T05:04:09.415Z
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
   }
+
+  .v-main .contents .t-role-card-desc {
+    align-self: flex-start;
+  }
 </style>
 
 <div 
@@ -101,7 +105,9 @@ dateCreated: 2026-06-29T05:04:09.415Z
     <div class="t-role-card-content">
       <div class="t-role-card-img"><img src="{{char-img}}"/></div>
       <div class="t-role-card-line"></div>
-      {{desc}}
+      <div class="t-role-card-desc">
+        {{desc}}
+      </div>
     </div>
   </div>
 </div>
