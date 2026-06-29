@@ -1,8 +1,8 @@
 ---
-title: command
+title: Коммандование  станции
 description: 
 published: true
-date: 2026-06-28T18:49:44.635Z
+date: 2026-06-29T21:46:38.226Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:26.122Z
