@@ -2,7 +2,7 @@
 title: Капитан
 description: 
 published: false
-date: 2026-06-29T21:54:46.672Z
+date: 2026-06-29T21:55:06.977Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:33.648Z
@@ -14,7 +14,7 @@ dateCreated: 2026-06-28T01:29:33.648Z
          department-color='command'
          department-name='Коммандование'
          department-url='roles/command'
-         char-img='./captain/char.png'
+         char-img='roles/command/captain/char.png'
          name='Капитан'
          prop-difficulty="Сложная"
          prop-responsibilities='Глава объекта. Занимается руководством всей станции.'
