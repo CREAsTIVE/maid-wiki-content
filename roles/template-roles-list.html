@@ -2,7 +2,7 @@
 title: TEMPLATE | Лист ролей
 description: 
 published: false
-date: 2026-06-28T19:11:48.093Z
+date: 2026-06-29T04:56:04.092Z
 tags: 
 editor: code
 dateCreated: 2026-06-28T06:27:04.698Z
@@ -11,19 +11,7 @@ dateCreated: 2026-06-28T06:27:04.698Z
 <!-- 
 СВОЙСТВА:
 
-department-color: Цвет карточки. Один из:
-  command, 
-  centralcommand, 
-  security, 
-  engineer, 
-  research, 
-  medical, 
-  cargo, 
-  justice, 
-  service, 
-  spirital, 
-  synthetics, 
-  antag
+
 
 department-name: Наименование отдела, Например: "Коммандование"
 
@@ -116,6 +104,12 @@ prop-guides
     align-items: center;
   }
 
+  @media (orientation: landscape) {
+    .v-main .contents .t-role-passport-content {
+      flex-direction: column;
+    }
+  }
+
   .v-main .contents .t-role-passport-img {
     flex-grow: 0;
     width: 192px;
@@ -168,7 +162,7 @@ prop-guides
 >
   <div class="t-role-passport">
     <div class="t-role-passport-title">
-      <div><strong><a href="/{{department-url}}">{{department-name}}</a></strong></div>
+      <div><strong><a href="{{department-url}}">{{department-name}}</a></strong></div>
     </div>
     <div class="t-role-passport-content">
       <div class="t-role-passport-img"><img src="{{char-img}}"/></div>
