@@ -2,12 +2,85 @@
 title: TEMPLATE | Карта роли
 description: 
 published: true
-date: 2026-06-29T05:04:09.415Z
+date: 2026-06-29T05:05:43.708Z
 tags: 
 editor: code
 dateCreated: 2026-06-29T05:04:09.415Z
 -->
 
-<h1>Title</h1>
+<style>
+  .v-main .contents .t-role-card-container {
+    --t-role-card-base-color: var(--t-role-card-base-color-command);
 
-<p>Some text here</p>
+    --t-role-card-base-color-command: #465298;
+    --t-role-card-base-color-centralcommand: #176a2a;
+    --t-role-card-base-color-security: #7e0808;
+    --t-role-card-base-color-engineer: #ca7226;
+    --t-role-card-base-color-research: #b155a5;
+    --t-role-card-base-color-medical: #5183a5;
+    --t-role-card-base-color-cargo: #906a3a;
+    --t-role-card-base-color-justice: #5b0f08;
+    --t-role-card-base-color-service: #559809;
+    --t-role-card-base-color-spirital: #6e726e;
+    --t-role-card-base-color-synthetics: #647e79;
+    --t-role-card-base-color-antag: #45170f;
+  }
+
+  .v-main .contents .t-role-card {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+    padding: 5px;
+    background-color: var(--t-role-card-base-color);
+
+    border-radius: 1em;
+  }
+
+  .v-main .contents .t-role-card-title {
+    background: repeating-linear-gradient(
+      45deg,
+      var(--t-role-card-base-color),
+      var(--t-role-card-base-color) 10px,
+      color-mix(in hsl, var(--t-role-card-base-color), white 13%) 10px,
+      color-mix(in hsl, var(--t-role-card-base-color), white 13%) 20px
+    );
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0.5em;
+
+    border-radius: 1em 1em 0 0;
+  }
+
+  .v-main .contents .t-role-card-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    background-color: #212121;
+
+    border-radius: 0 0 1em 1em;
+
+    align-items: center;
+
+    gap: 16px;
+    padding: 16px;
+  }
+</style>
+
+<div 
+  class="t-role-card-container" 
+  style="--t-role-card-base-color: var(--t-role-card-base-color-{{department-color}});"
+>
+  <div class="t-role-card">
+    <div class="t-role-card-title">
+      <div><strong><a href="{{url}}">{{name}}</a></strong></div>
+    </div>
+    <div class="t-role-card-content">
+      <div class="t-role-card-img"><img src="{{char-img}}"/></div>
+      
+      </div>
+    </div>
+  </div>
+</div>
