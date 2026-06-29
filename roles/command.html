@@ -2,7 +2,7 @@
 title: Коммандование  станции
 description: 
 published: true
-date: 2026-06-29T22:23:01.845Z
+date: 2026-06-29T22:29:17.494Z
 tags: 
 editor: code
 dateCreated: 2026-06-28T01:29:26.122Z
@@ -28,6 +28,48 @@ dateCreated: 2026-06-28T01:29:26.122Z
     url='roles/command/headofpersonal'
     name='Глава Персонала'
     char-img='roles/command/headofpersonal/char.png'
-    desc='Глава объекта. Занимается руководством всей станции, главные его помощники это главы отделов.'
+    desc='Руководит отделом Сервиса. Принимает и увольняет работников, редактирует доступ ID-карт.'
+  ></include>
+  <include path='roles/template-role-card'
+    department-color='security'
+    url='roles/command/headofsecurity'
+    name='Глава Службы Безопасности'
+    char-img='roles/command/headofsecurity/char.png'
+    desc='Управляет отделом жалких породий на клоуна. Хранит диск за капитана.'
+  ></include>
+  <include path='roles/template-role-card'
+    department-color='engineer'
+    url='roles/command/chiefengineer'
+    name='Старший Инженер'
+    char-img='roles/command/chiefengineer/char.png'
+    desc='Управляет инженерным отделом и следит за сохранностью станции.'
+  ></include>
+  <include path='roles/template-role-card'
+    department-color='science'
+    url='roles/command/researchdirector'
+    name='Научный Руководитель'
+    char-img='roles/command/researchdirector/char.png'
+    desc='Глава исследований и разработки. Следит за работой отдела, а также за выполнением их задач.'
+  ></include>
+  <include path='roles/template-role-card'
+    department-color='medical'
+    url='roles/command/chiefmedicalofficer'
+    name='Старший Медицинский Оффицер'
+    char-img='roles/command/chiefmedicalofficer/char.png'
+    desc='В начале смены отдыхает, а к концу пытается избавиться от трупов на полу, вместе со всем мед отделом.'
+  ></include>
+  <include path='roles/template-role-card'
+    department-color='cargo'
+    url='roles/command/quartermaster'
+    name='Квартермейстер'
+    char-img='roles/command/quartermaster/char.png'
+    desc='Следит за работой отдела, несет ответственность за шаттл карго, а также должен одобрять или отклонять запросы.'
+  ></include>
+  <include path='roles/template-role-card'
+    department-color='command'
+    url='roles/command/inspector'
+    name='Инспектор'
+    char-img='roles/command/inspector/char.png'
+    desc='Контролирует выполнение целей станции. А также всеми юридическими вопросами.'
   ></include>
 </div>
