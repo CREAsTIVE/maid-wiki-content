@@ -2,7 +2,7 @@
 title: TEMPLATE | Карта роли
 description: 
 published: true
-date: 2026-06-29T22:48:38.440Z
+date: 2026-06-30T01:18:18.009Z
 tags: 
 editor: code
 dateCreated: 2026-06-29T05:04:09.415Z
@@ -94,7 +94,7 @@ desc: Краткое описание роли
     gap: 8px;
     padding: 16px;
   }
-  
+
   .v-main .contents .t-role-passport-title > div {
     padding: 5px 10px;
     font-size: 1.3em;
@@ -127,22 +127,30 @@ desc: Краткое описание роли
     align-self: flex-start;
     font-size: 0.75em;
   }
+
+  .v-main .contents a.link-wrapper {
+    display: block !important; 
+    text-decoration: none !important;
+    color: inherit !important;
+  }
 </style>
 
 <div 
   class="t-role-card-container" 
   style="--t-role-card-base-color: var(--t-role-card-base-color-{{department-color}});"
 >
-  <div class="t-role-card">
-    <div class="t-role-card-title">
-      <div><strong><a href="/{{url}}">{{name}}</a></strong></div>
-    </div>
-    <div class="t-role-card-content">
-      <div class="t-role-card-img"><img src="/{{char-img}}"/></div>
-      <div class="t-role-card-line"></div>
-      <div class="t-role-card-desc">
-        {{desc}}
+  <a href="/{{url}}" class="link-wrapper">
+    <div class="t-role-card">
+      <div class="t-role-card-title">
+        <div><strong>{{name}}</strong></div>
+      </div>
+      <div class="t-role-card-content">
+        <div class="t-role-card-img"><img src="/{{char-img}}"/></div>
+        <div class="t-role-card-line"></div>
+        <div class="t-role-card-desc">
+          {{desc}}
+        </div>
       </div>
     </div>
-  </div>
+  </a>
 </div>
