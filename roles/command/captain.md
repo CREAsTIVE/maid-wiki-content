@@ -2,13 +2,11 @@
 title: Капитан
 description: 
 published: true
-date: 2026-07-01T01:03:32.147Z
+date: 2026-07-01T08:15:36.672Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:33.648Z
 ---
-
-# Капитан
 
 <include path='roles/template-role-passport'
          department-color='command'
