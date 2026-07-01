@@ -2,7 +2,7 @@
 title: TEMPLATE | Список Ролей
 description: 
 published: false
-date: 2026-07-01T00:37:00.046Z
+date: 2026-07-01T00:39:00.470Z
 tags: template
 editor: code
 dateCreated: 2026-07-01T00:21:13.545Z
@@ -31,7 +31,6 @@ dateCreated: 2026-07-01T00:21:13.545Z
 
   .v-main .contents .t-role-list-department {
     display: flex;
-    gap: 1.5em;
 
     --t-role-list-department-color: var(--t-role-list-base-color-command);
   }
@@ -40,6 +39,9 @@ dateCreated: 2026-07-01T00:21:13.545Z
     width: 20%;
     flex-shrink: 0;
     background-color: var(--t-role-list-department-color);
+
+    text-align: center;
+    align-content: center;
   }
 
   .v-main .contents .t-role-list-department-list {
@@ -49,7 +51,7 @@ dateCreated: 2026-07-01T00:21:13.545Z
     display: flex;
     flex-wrap: wrap;
 
-    background-color: color-mix(in hsl var(--t-role-list-department-color), black 15%);
+    background-color: rgba(var(--t-role-list-department-color), 0.3);
   }
   
   .v-main .contents .t-role-list-department-list > a {
