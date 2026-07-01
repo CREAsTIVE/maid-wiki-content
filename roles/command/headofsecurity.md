@@ -2,7 +2,7 @@
 title: headofsecurity
 description: 
 published: true
-date: 2026-07-01T23:34:15.447Z
+date: 2026-07-01T23:39:22.625Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:30:04.008Z
@@ -17,7 +17,7 @@ dateCreated: 2026-06-28T01:30:04.008Z
          prop-difficulty="Сложная"
          prop-responsibilities='Хранить порядок на станции, хранить капитана живым, хранить себя живым.'
          prop-command='<a href="/roles/command/captain">Капитан</a>'
-				 prop-guides=''/>
+				 prop-guides=''></include>
 
 
 <!-- 
