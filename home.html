@@ -2,7 +2,7 @@
 title: 
 description: 
 published: true
-date: 2026-07-01T06:54:38.572Z
+date: 2026-07-01T06:56:16.435Z
 tags: 
 editor: code
 dateCreated: 2026-06-14T04:15:39.606Z
@@ -30,19 +30,25 @@ dateCreated: 2026-06-14T04:15:39.606Z
     font-size: 2em;
   }
 
-  .v-main .contents .c-block a > img {
+  .v-main .contents .c-links {
+    display: flex;
+    justify-content: stretch;
+  }
+
+  .v-main .contents .c-links a > img {
     width: 32px;
     height: 32px;
     filter: invert(100%);
     color: white;
   }
 
-  .v-main .contents .c-block a {
+  .v-main .contents .c-links a {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
-  .v-main .contents .c-block a::after {
+  .v-main .contents .c-links a::after {
     display: none !important;
   }
   
@@ -84,7 +90,9 @@ dateCreated: 2026-06-14T04:15:39.606Z
     <div class="c-header">Сообщество</div>
     <a href="https://discord.gg/maidstation14">
       <img src="/home/discord.svg"/>
-      <div>Discord</div>
+      <diV class="c-links">
+        <div>Discord</div>
+      </diV>
     </a>
   </div>
 </div>
