@@ -1,18 +1,27 @@
-[Командование](/roles/command)
+---
+title: inspector
+description: 
+published: true
+date: 2026-07-01T23:38:32.778Z
+tags: 
+editor: markdown
+dateCreated: 2026-06-28T01:30:11.568Z
+---
 
-![](./inspector/char.png)
-
-# Инспектор
-
-**Сложность:** Средняя
-
-**Обязанности:** Непосредственный контроль за выполнением цели станции. Управление юридическими вопросами.
-**Руководители**: [Капитан](/roles/captain)
-**Руководства**: [Иерархия Командования](/guides/hierarchyofcommand) • [Стандартные Процедуры](/standardoperatingprocedures) • [Космический Закон](/spacelaw) • [Бумажная работа](/guides/bureaucracy)
+<include path='roles/template-role-passport'
+         department-color='command'
+         department-name='Командование'
+         department-url='roles/command'
+         char-img='roles/command/inspector/char.png'
+         name='Инспектор'
+         prop-difficulty="Средняя"
+         prop-responsibilities='Непосредственный контроль за выполнением цели станции. Управление юридическими вопросами.'
+         prop-command='<a href="/roles/command/captain">Капитан</a>'
+				 prop-guides=''></include>
 
 ## Должность
 
-**Вы — Инспектор**, вам предстоит следить за выполнением целей станции, создавать отчеты по запросу от [Центрального Командования](/roles/centralcommand) и [Капитана](/roles/captain), разрешать внутренние конфликты на станции и руководить отделом юстиции.
+**Вы — Инспектор**, вам предстоит следить за выполнением целей станции, создавать отчеты по запросу от [Центрального Командования](/roles/centralcommand) и [Капитана](/roles/command/captain), разрешать внутренние конфликты на станции и руководить отделом юстиции.
 
 * Ваши действия и отчеты должны быть направлены на благо станции. Избегайте вмешательства в работу других отделов и не мешайте прямо заниматься своим делом. Ваше право отдавать приказы распространяется только на юристов в штатном режиме.
 * У вас есть полное право запросить у капитана доступ в отдел, участвующий в выполнении целей станции или для проверки. Злоупотребление вашим доступом, повлечет за собой наказание.
@@ -45,116 +54,4 @@
 
 Как одно из наиболее квалифицированных лиц в юридической области, вам необходимо обладать всесторонним знанием юридических аспектов от А до Я. Вы можете заниматься офисной работой, координировать деятельность юристов или даже выступать в роли судьи на судах. Однако важно соблюдать баланс, не утрачивая главные цели в пользу бюрократии.
 
-![Профессии экипажа](/role/ss14 mini logo.png)[**Профессии экипажа**](https://js.ss14.su/roles)
-
-**Командование**
-
-[Капитан](/roles/captain)
-[Глава персонала](/roles/headofpersonnel)
-[Глава Службы Безопасности](/roles/headofsecurity)
-[Инспектор](/roles/inspector)
-[Старший Инженер](/roles/chiefengineer)
-[Научный Руководитель](/roles/researchdirector)
-[Старший Медицинский Офицер](/roles/chiefmedicalofficer)
-[Квартирмейстер](/roles/quartermaster)
-
-**Центральное Командование**
-
-[Представитель ЦК](/roles/representativeofcc)
-[Отряд Быстрого Реагирования](/roles/emergencyresponseteam)
-[Отряд Смерти](/roles/deathsquad)
-
-**Служба безопасности**
-
-[Глава Службы Безопасности](/roles/headofsecurity)
-[Смотритель](/roles/warden)
-[Ветеран](/roles/veteran)
-[Офицер](/roles/officer)
-[Детектив](/roles/detective)
-[Кадет](/roles/cadet)
-
-**Инженерный отдел**
-
-[Старший Инженер](/roles/chiefengineer)
-[Бригадир](/roles/brigadier)
-[Инженер](/roles/engineer)
-[Атмосферный техник](/roles/atmospherictechnician)
-[Технический ассистент](/roles/technicalassistant)
-
-**Отдел Исследований**
-
-[Научный Руководитель](/roles/researchdirector)
-[Ведущий исследователь](/roles/leadresearcher)
-[Учёный](/roles/scientist)
-[Научный ассистент](/roles/researchassistant)
-
-**Медицинский отдел**
-
-[Старший Медицинский Офицер](/roles/chiefmedicalofficer)
-[Медицинский офицер](/roles/medicalofficer)
-[Парамедик](/roles/paramedic)
-[Химик](/roles/chemist)
-[Врач](/roles/doctor)
-[Интерн](/roles/intern)
-
-**Отдел снабжения**
-
-[Квартирмейстер](/roles/quartermaster)
-[Охотник](/roles/hunter)
-[Утилизатор](/roles/utilizer)
-[Грузчик](/roles/loader)
-
-**Отдел юстиции**
-
-[Инспектор](/roles/inspector)
-[Юрист](/roles/lawyer)
-
-**Сервисный отдел**
-
-[Глава персонала](/roles/headofpersonnel)
-[Ассистент](/roles/assistant)
-[Сервисный работник](/roles/serviceworker)
-[Ботаник](/roles/botanist)
-[Шеф-повар](/roles/chef)
-[Бармен](/roles/barman)
-[Уборщик](/roles/janitor)
-[Клоун](/roles/clown)
-[Мим](/roles/mime)
-[Зоотехник](/roles/zootechnik)
-[Боксёр](/roles/boxer)
-[Репортёр](/roles/reporter)
-[Священник](/roles/priest)
-[Библиотекарь](/roles/librarian)
-[Музыкант](/roles/musician)
-
-**Спиритический отдел**
-
-[Призрак](/roles/ghost)
-[Мышь](/roles/mouse)
-[Гамлет](/roles/hamlet)
-[Ремилия](/roles/remilia)
-
-**Синтетики**
-
-[Киборг](/roles/cyborg)
-[пИИ](/roles/personalai)
-[Дрон техобслуживания](/roles/maintenancedrone)
-[Искусственный Интеллект](/roles/ai)
-
-**Антагонисты**
-
-[Предатель](/roles/traitor)
-[Ядерный оперативник](/roles/nuclearoperative)
-[Мозговой червь](/roles/corticalBorer)
-[Вор](/roles/thief)
-[Культист](/roles/cultist)
-[Революционер](/roles/revolution)
-[Нулевой пациент](/roles/patientzero)
-[Космический ниндзя](/roles/spaceninja)
-[Пират](/roles/pirate)
-[Ревенант](/roles/revenant)
-[Крысиный король](/roles/ratking)
-[Космический дракон](/roles/spacedragon)
-[Хранитель](/roles/guardian)
-[Генокрад](/roles/genestealer)
-[Терминатор](/roles/terminator)
+<include path='roles/template-role-list'></include>
