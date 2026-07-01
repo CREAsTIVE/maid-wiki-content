@@ -2,7 +2,7 @@
 title: TEMPLATE | Список Ролей
 description: 
 published: false
-date: 2026-07-01T00:29:57.335Z
+date: 2026-07-01T00:37:00.046Z
 tags: template
 editor: code
 dateCreated: 2026-07-01T00:21:13.545Z
@@ -13,15 +13,33 @@ dateCreated: 2026-07-01T00:21:13.545Z
     display: flex;
     flex-direction: column;
     width: 100%;
+
+
+    --t-role-list-base-color-command: #465298;
+    --t-role-list-base-color-centralcommand: #176a2a;
+    --t-role-list-base-color-security: #7e0808;
+    --t-role-list-base-color-engineer: #ca7226;
+    --t-role-list-base-color-research: #b155a5;
+    --t-role-list-base-color-medical: #5183a5;
+    --t-role-list-base-color-cargo: #906a3a;
+    --t-role-list-base-color-justice: #5b0f08;
+    --t-role-list-base-color-service: #559809;
+    --t-role-list-base-color-spirital: #6e726e;
+    --t-role-list-base-color-synthetics: #647e79;
+    --t-role-list-base-color-antag: #45170f;
   }
 
   .v-main .contents .t-role-list-department {
     display: flex;
+    gap: 1.5em;
+
+    --t-role-list-department-color: var(--t-role-list-base-color-command);
   }
 
   .v-main .contents .t-role-list-department-name {
     width: 20%;
     flex-shrink: 0;
+    background-color: var(--t-role-list-department-color);
   }
 
   .v-main .contents .t-role-list-department-list {
@@ -30,6 +48,8 @@ dateCreated: 2026-07-01T00:21:13.545Z
     justify-items: center;
     display: flex;
     flex-wrap: wrap;
+
+    background-color: color-mix(in hsl var(--t-role-list-department-color), black 15%);
   }
   
   .v-main .contents .t-role-list-department-list > a {
@@ -43,7 +63,7 @@ dateCreated: 2026-07-01T00:21:13.545Z
 </style>
 
 <div class="t-role-list">
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-command);">
     <div class="t-role-list-department-name">
       <a href="/roles/command">Командование</a>
     </div>
@@ -58,17 +78,17 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/command/quartermaster">Квартирмейстер</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-centralcommand);">
     <div class="t-role-list-department-name">
-      <a href="/roles/centcom">Центральное Командование</a>
+      <a href="/roles/centralcommand">Центральное Командование</a>
     </div>
     <div class="t-role-list-department-list">
-      <a href="/roles/centcom/representativeofcc">Представитель ЦК</a>
-      <a href="/roles/centcom/emergencyresponseteam">Отряд Быстрого Реагирования</a>
-      <a href="/roles/centcom/deathsquad">Отряд Смерти</a>
+      <a href="/roles/centralcommand/representativeofcc">Представитель ЦК</a>
+      <a href="/roles/centralcommand/emergencyresponseteam">Отряд Быстрого Реагирования</a>
+      <a href="/roles/centralcommand/deathsquad">Отряд Смерти</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-security);">
     <div class="t-role-list-department-name">
       <a href="/roles/security">Служба безопасности</a>
     </div>
@@ -81,7 +101,7 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/security/cadet">Кадет</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-engineer);">
     <div class="t-role-list-department-name">
       <a href="/roles/engineering">Инженерный отдел</a>
     </div>
@@ -93,7 +113,7 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/engineering/technicalassistant">Технический ассистент</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-research);">
     <div class="t-role-list-department-name">
       <a href="/roles/research">Отдел Исследований</a>
     </div>
@@ -104,7 +124,7 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/research/researchassistant">Научный ассистент</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-medical);">
     <div class="t-role-list-department-name">
       <a href="/roles/medical">Медицинский отдел</a>
     </div>
@@ -117,7 +137,7 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/medical/intern">Интерн</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-cargo);">
     <div class="t-role-list-department-name">
       <a href="/roles/supply">Отдел снабжения</a>
     </div>
@@ -128,7 +148,7 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/supply/loader">Грузчик</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-justice);">
     <div class="t-role-list-department-name">
       <a href="/roles/justice">Отдел юстиции</a>
     </div>
@@ -137,7 +157,7 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/justice/lawyer">Юрист</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-service);">
     <div class="t-role-list-department-name">
       <a href="/roles/service">Сервисный отдел</a>
     </div>
@@ -159,18 +179,18 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/service/musician">Музыкант</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-spirital);">
     <div class="t-role-list-department-name">
-      <a href="/roles/ghost">Спиритический отдел</a>
+      <a href="/roles/spirital">Спиритический отдел</a>
     </div>
     <div class="t-role-list-department-list">
-      <a href="/roles/ghost/ghost">Призрак</a>
-      <a href="/roles/ghost/mouse">Мышь</a>
-      <a href="/roles/ghost/hamlet">Гамлет</a>
-      <a href="/roles/ghost/remilia">Ремилия</a>
+      <a href="/roles/spirital/ghost">Призрак</a>
+      <a href="/roles/spirital/mouse">Мышь</a>
+      <a href="/roles/spirital/hamlet">Гамлет</a>
+      <a href="/roles/spirital/remilia">Ремилия</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-synthetics);">
     <div class="t-role-list-department-name">
       <a href="/roles/synthetic">Синтетики</a>
     </div>
@@ -181,26 +201,26 @@ dateCreated: 2026-07-01T00:21:13.545Z
       <a href="/roles/synthetic/ai">Искусственный Интеллект</a>
     </div>
   </div>
-  <div class="t-role-list-department">
+  <div class="t-role-list-department" style="--t-role-list-department-color: var(--t-role-list-base-color-antag);">
     <div class="t-role-list-department-name">
-      <a href="/roles/antagonist">Антагонисты</a>
+      <a href="/roles/antag">Антагонисты</a>
     </div>
     <div class="t-role-list-department-list">
-      <a href="/roles/antagonist/traitor">Предатель</a>
-      <a href="/roles/antagonist/nuclearoperative">Ядерный оперативник</a>
-      <a href="/roles/antagonist/corticalBorer">Мозговой червь</a>
-      <a href="/roles/antagonist/thief">Вор</a>
-      <a href="/roles/antagonist/cultist">Культист</a>
-      <a href="/roles/antagonist/revolution">Революционер</a>
-      <a href="/roles/antagonist/patientzero">Нулевой пациент</a>
-      <a href="/roles/antagonist/spaceninja">Космический ниндзя</a>
-      <a href="/roles/antagonist/pirate">Пират</a>
-      <a href="/roles/antagonist/revenant">Ревенант</a>
-      <a href="/roles/antagonist/ratking">Крысиный король</a>
-      <a href="/roles/antagonist/spacedragon">Космический дракон</a>
-      <a href="/roles/antagonist/guardian">Хранитель</a>
-      <a href="/roles/antagonist/genestealer">Генокрад</a>
-      <a href="/roles/antagonist/terminator">Терминатор</a>
+      <a href="/roles/antag/traitor">Предатель</a>
+      <a href="/roles/antag/nuclearoperative">Ядерный оперативник</a>
+      <a href="/roles/antag/corticalBorer">Мозговой червь</a>
+      <a href="/roles/antag/thief">Вор</a>
+      <a href="/roles/antag/cultist">Культист</a>
+      <a href="/roles/antag/revolution">Революционер</a>
+      <a href="/roles/antag/patientzero">Нулевой пациент</a>
+      <a href="/roles/antag/spaceninja">Космический ниндзя</a>
+      <a href="/roles/antag/pirate">Пират</a>
+      <a href="/roles/antag/revenant">Ревенант</a>
+      <a href="/roles/antag/ratking">Крысиный король</a>
+      <a href="/roles/antag/spacedragon">Космический дракон</a>
+      <a href="/roles/antag/guardian">Хранитель</a>
+      <a href="/roles/antag/genestealer">Генокрад</a>
+      <a href="/roles/antag/terminator">Терминатор</a>
     </div>
   </div>
 </div>
