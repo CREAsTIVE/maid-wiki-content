@@ -1,15 +1,26 @@
-[Командование](/roles/command)
+---
+title: headofsecurity
+description: 
+published: true
+date: 2026-07-01T23:33:48.956Z
+tags: 
+editor: markdown
+dateCreated: 2026-06-28T01:30:04.008Z
+---
 
-![](./headofsecurity/char.png)
+<include path='roles/template-role-passport'
+         department-color='command'
+         department-name='Командование'
+         department-url='roles/command'
+         char-img='roles/command/headofsecurity/char.png'
+         name='Глава Службы Безопасности'
+         prop-difficulty="Сложная"
+         prop-responsibilities='Хранить порядок на станции, хранить капитана живым, хранить себя живым.'
+         prop-command='<a href="/roles/command/captain">Капитан</a>'
+				 prop-guides=''/>
 
-# Глава Службы Безопасности
 
-**Сложность:** Сложная
-
-**Обязанности:** Хранить порядок на станции, хранить капитана живым, хранить себя живым.
-**Руководители**: [Капитан](/roles/captain)
-**Руководства**: [Иерархия Командования](/guides/hierarchyofcommand) • [Космический Закон](/spacelaw) • [Десятичные коды](/roles/securityservicedepartment/tencodes)
-
+<!-- 
 Глава Службы Безопасности  VS  Клоун
 
 ХОС HP: 30
@@ -27,6 +38,8 @@
 Перезарядка
 
 ![](/roles/service/clown/char.png)
+
+-->
 
 Быть главой всего СБ, которому поручено защищать всю станцию и ее экипаж - непросто. ОЧЕНЬ непросто. Но, может быть, вы сможете привести свою скромную команду к победе над врагами NanoTrasen.
 
