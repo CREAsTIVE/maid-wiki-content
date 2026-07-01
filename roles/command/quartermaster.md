@@ -1,14 +1,23 @@
-[Командование](/roles/command)
+---
+title: quartermaster
+description: 
+published: true
+date: 2026-07-01T23:48:47.811Z
+tags: 
+editor: markdown
+dateCreated: 2026-06-28T01:30:26.371Z
+---
 
-![](./quartermaster/char.png)
-
-# Квартирмейстер
-
-**Сложность:** Средняя
-
-**Обязанности:** Следить за работой отдела, следить за целостностью грузового шаттла, а также одобрять или отклонять запросы.
-**Руководители**: [Капитан](/roles/captain)
-**Руководства**: [Список товаров](/guides/listofproducts)
+<include path='roles/template-role-passport'
+         department-color='command'
+         department-name='Командование'
+         department-url='roles/command'
+         char-img='roles/command/quartermaster/char.png'
+         name='Квартирмейстер'
+         prop-difficulty="Средняя"
+         prop-responsibilities='Следить за работой отдела, следить за целостностью грузового шаттла, а также одобрять или отклонять запросы.'
+         prop-command='<a href="/roles/command/captain">Капитан</a>'
+				 prop-guides=''></include>
 
 **Квартирмейстер** это очень ответственная роль в **[Space Station 14](https://wiki.ss14.su)**. Игрок с данной ролью является безоговорочным лидером отдела снабжения, который подчиняется непосредственно капитану. Квартирмейстер может давать указания своим подчиненным - **сотрудникам отдела снабжения**: [грузчикам](/roles/loader) и [утилизаторам](/roles/utilizer).
 Роль квартирмейстера очень востребована в *SS14*, т.к. именно он отвечает за принятие или отклонение определенных заказов. КМ-у разрешено совершать заказы и одобрять их, если эти заказы напрямую влияют на улучшение работоспособности отдела снабжения. Первоначальная цель КМ-а и всего Карго является **приказ Цент-Кома**, к примеру - Цент-Ком совершил заказ на постройку управляемого шаттла, для этого КМ должен одобрять все заказы от **РНД** и **инженеров**, которые посчитает нужными.
@@ -66,116 +75,4 @@
 
   Обеспечивайте отделы ресурсами, и отклоняйте только те, которые по вашему мнению не нужны.
 
-![Профессии экипажа](/role/ss14 mini logo.png)[**Профессии экипажа**](https://js.ss14.su/roles)
-
-**Командование**
-
-[Капитан](/roles/captain)
-[Глава персонала](/roles/headofpersonnel)
-[Глава Службы Безопасности](/roles/headofsecurity)
-[Инспектор](/roles/inspector)
-[Старший Инженер](/roles/chiefengineer)
-[Научный Руководитель](/roles/researchdirector)
-[Старший Медицинский Офицер](/roles/chiefmedicalofficer)
-[Квартирмейстер](/roles/quartermaster)
-
-**Центральное Командование**
-
-[Представитель ЦК](/roles/representativeofcc)
-[Отряд Быстрого Реагирования](/roles/emergencyresponseteam)
-[Отряд Смерти](/roles/deathsquad)
-
-**Служба безопасности**
-
-[Глава Службы Безопасности](/roles/headofsecurity)
-[Смотритель](/roles/warden)
-[Ветеран](/roles/veteran)
-[Офицер](/roles/officer)
-[Детектив](/roles/detective)
-[Кадет](/roles/cadet)
-
-**Инженерный отдел**
-
-[Старший Инженер](/roles/chiefengineer)
-[Бригадир](/roles/brigadier)
-[Инженер](/roles/engineer)
-[Атмосферный техник](/roles/atmospherictechnician)
-[Технический ассистент](/roles/technicalassistant)
-
-**Отдел Исследований**
-
-[Научный Руководитель](/roles/researchdirector)
-[Ведущий исследователь](/roles/leadresearcher)
-[Учёный](/roles/scientist)
-[Научный ассистент](/roles/researchassistant)
-
-**Медицинский отдел**
-
-[Старший Медицинский Офицер](/roles/chiefmedicalofficer)
-[Медицинский офицер](/roles/medicalofficer)
-[Парамедик](/roles/paramedic)
-[Химик](/roles/chemist)
-[Врач](/roles/doctor)
-[Интерн](/roles/intern)
-
-**Отдел снабжения**
-
-[Квартирмейстер](/roles/quartermaster)
-[Охотник](/roles/hunter)
-[Утилизатор](/roles/utilizer)
-[Грузчик](/roles/loader)
-
-**Отдел юстиции**
-
-[Инспектор](/roles/inspector)
-[Юрист](/roles/lawyer)
-
-**Сервисный отдел**
-
-[Глава персонала](/roles/headofpersonnel)
-[Ассистент](/roles/assistant)
-[Сервисный работник](/roles/serviceworker)
-[Ботаник](/roles/botanist)
-[Шеф-повар](/roles/chef)
-[Бармен](/roles/barman)
-[Уборщик](/roles/janitor)
-[Клоун](/roles/clown)
-[Мим](/roles/mime)
-[Зоотехник](/roles/zootechnik)
-[Боксёр](/roles/boxer)
-[Репортёр](/roles/reporter)
-[Священник](/roles/priest)
-[Библиотекарь](/roles/librarian)
-[Музыкант](/roles/musician)
-
-**Спиритический отдел**
-
-[Призрак](/roles/ghost)
-[Мышь](/roles/mouse)
-[Гамлет](/roles/hamlet)
-[Ремилия](/roles/remilia)
-
-**Синтетики**
-
-[Киборг](/roles/cyborg)
-[пИИ](/roles/personalai)
-[Дрон техобслуживания](/roles/maintenancedrone)
-[Искусственный Интеллект](/roles/ai)
-
-**Антагонисты**
-
-[Предатель](/roles/traitor)
-[Ядерный оперативник](/roles/nuclearoperative)
-[Мозговой червь](/roles/corticalBorer)
-[Вор](/roles/thief)
-[Культист](/roles/cultist)
-[Революционер](/roles/revolution)
-[Нулевой пациент](/roles/patientzero)
-[Космический ниндзя](/roles/spaceninja)
-[Пират](/roles/pirate)
-[Ревенант](/roles/revenant)
-[Крысиный король](/roles/ratking)
-[Космический дракон](/roles/spacedragon)
-[Хранитель](/roles/guardian)
-[Генокрад](/roles/genestealer)
-[Терминатор](/roles/terminator)
+<include path='roles/template-role-list'></include>
