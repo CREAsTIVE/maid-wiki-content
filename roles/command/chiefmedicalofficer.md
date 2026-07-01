@@ -1,14 +1,23 @@
-[Командование](/roles/command)
+---
+title: chiefmedicalofficer
+description: 
+published: true
+date: 2026-07-01T23:46:42.846Z
+tags: 
+editor: markdown
+dateCreated: 2026-06-28T01:29:48.967Z
+---
 
-![](./chiefmedicalofficer/char.png)
-
-# Старший Медицинский Офицер
-
-**Сложность:** Сложная
-
-**Обязанности:** Координация медицинского персонала.
-**Руководители**: [Капитан](/roles/captain)
-**Руководства**: [Медицина](/guides/medicine) • [Химия](/guides/chemistry) • [Медицинский инвентарь](/guides/medicalequipment)
+<include path='roles/template-role-passport'
+         department-color='command'
+         department-name='Командование'
+         department-url='roles/command'
+         char-img='roles/command/chiefmedicalofficer/char.png'
+         name='Старший Медицинский Офицер'
+         prop-difficulty="Сложная"
+         prop-responsibilities='Координация медицинского персонала.'
+         prop-command='<a href="/roles/command/captain">Капитан</a>'
+				 prop-guides=''></include>
 
 Вы — Старший медицинский офицер! Что может быть лучше, чем лечить людей? Конечно же, быть ответственным за тех, кто лечит людей. Будучи назначенным на должность главы медицинского отдела, оборудованного по последнему слову техники обычными кроватями, вы должны проконтролировать, чтобы каждый ваш сотрудник знал, что делать в любой момент времени: врачи должны заниматься ранеными, быть готовыми реагировать на вызовы, химики должны быть заняты преобразованием электроэнергии в химические элементы, психолог должен предотвращать суицидальные наклонности среди экипажа.
 
