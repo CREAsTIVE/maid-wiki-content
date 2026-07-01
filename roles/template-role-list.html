@@ -1,0 +1,196 @@
+<!--
+title: TEMPLATE | Список Ролей
+description: 
+published: false
+date: 2026-07-01T00:21:13.545Z
+tags: template
+editor: code
+dateCreated: 2026-07-01T00:21:13.545Z
+-->
+
+<style>
+  .v-main .contents .t-role-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .v-main .contents .t-role-list-department {
+    display: flex;
+  }
+
+  .v-main .contents .t-role-list-department-name {
+    flex-grow: 0.3;
+  }
+
+  .v-main .contents .t-role-list-department-list {
+    flex-grow: 1;
+  }
+  
+  .v-main .contents .t-role-list-department-list > a {
+
+  }
+</style>
+
+<div class="t-role-list">
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/command">Командование</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/command/captain">Капитан</a>
+      <a href="/roles/command/headofpersonnel">Глава персонала</a>
+      <a href="/roles/command/headofsecurity">Глава Службы Безопасности</a>
+      <a href="/roles/command/inspector">Инспектор</a>
+      <a href="/roles/command/chiefengineer">Старший Инженер</a>
+      <a href="/roles/command/researchdirector">Научный Руководитель</a>
+      <a href="/roles/command/chiefmedicalofficer">Старший Медицинский Офицер</a>
+      <a href="/roles/command/quartermaster">Квартирмейстер</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/centcom">Центральное Командование</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/centcom/representativeofcc">Представитель ЦК</a>
+      <a href="/roles/centcom/emergencyresponseteam">Отряд Быстрого Реагирования</a>
+      <a href="/roles/centcom/deathsquad">Отряд Смерти</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/security">Служба безопасности</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/security/headofsecurity">Глава Службы Безопасности</a>
+      <a href="/roles/security/warden">Смотритель</a>
+      <a href="/roles/security/veteran">Ветеран</a>
+      <a href="/roles/security/officer">Офицер</a>
+      <a href="/roles/security/detective">Детектив</a>
+      <a href="/roles/security/cadet">Кадет</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/engineering">Инженерный отдел</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/engineering/chiefengineer">Старший Инженер</a>
+      <a href="/roles/engineering/brigadier">Бригадир</a>
+      <a href="/roles/engineering/engineer">Инженер</a>
+      <a href="/roles/engineering/atmospherictechnician">Атмосферный техник</a>
+      <a href="/roles/engineering/technicalassistant">Технический ассистент</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/research">Отдел Исследований</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/research/researchdirector">Научный Руководитель</a>
+      <a href="/roles/research/leadresearcher">Ведущий исследователь</a>
+      <a href="/roles/research/scientist">Учёный</a>
+      <a href="/roles/research/researchassistant">Научный ассистент</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/medical">Медицинский отдел</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/medical/chiefmedicalofficer">Старший Медицинский Офицер</a>
+      <a href="/roles/medical/medicalofficer">Медицинский офицер</a>
+      <a href="/roles/medical/paramedic">Парамедик</a>
+      <a href="/roles/medical/chemist">Химик</a>
+      <a href="/roles/medical/doctor">Врач</a>
+      <a href="/roles/medical/intern">Интерн</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/supply">Отдел снабжения</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/supply/quartermaster">Квартирмейстер</a>
+      <a href="/roles/supply/hunter">Охотник</a>
+      <a href="/roles/supply/utilizer">Утилизатор</a>
+      <a href="/roles/supply/loader">Грузчик</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/justice">Отдел юстиции</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/justice/inspector">Инспектор</a>
+      <a href="/roles/justice/lawyer">Юрист</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/service">Сервисный отдел</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/service/headofpersonnel">Глава персонала</a>
+      <a href="/roles/service/assistant">Ассистент</a>
+      <a href="/roles/service/serviceworker">Сервисный работник</a>
+      <a href="/roles/service/botanist">Ботаник</a>
+      <a href="/roles/service/chef">Шеф-повар</a>
+      <a href="/roles/service/barman">Бармен</a>
+      <a href="/roles/service/janitor">Уборщик</a>
+      <a href="/roles/service/clown">Клоун</a>
+      <a href="/roles/service/mime">Мим</a>
+      <a href="/roles/service/zootechnik">Зоотехник</a>
+      <a href="/roles/service/boxer">Боксёр</a>
+      <a href="/roles/service/reporter">Репортёр</a>
+      <a href="/roles/service/priest">Священник</a>
+      <a href="/roles/service/librarian">Библиотекарь</a>
+      <a href="/roles/service/musician">Музыкант</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/ghost">Спиритический отдел</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/ghost/ghost">Призрак</a>
+      <a href="/roles/ghost/mouse">Мышь</a>
+      <a href="/roles/ghost/hamlet">Гамлет</a>
+      <a href="/roles/ghost/remilia">Ремилия</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/synthetic">Синтетики</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/synthetic/cyborg">Киборг</a>
+      <a href="/roles/synthetic/personalai">пИИ</a>
+      <a href="/roles/synthetic/maintenancedrone">Дрон техобслуживания</a>
+      <a href="/roles/synthetic/ai">Искусственный Интеллект</a>
+    </div>
+  </div>
+  <div class="t-role-list-department">
+    <div class="t-role-list-department-name">
+      <a href="/roles/antagonist">Антагонисты</a>
+    </div>
+    <div class="t-role-list-department-list">
+      <a href="/roles/antagonist/traitor">Предатель</a>
+      <a href="/roles/antagonist/nuclearoperative">Ядерный оперативник</a>
+      <a href="/roles/antagonist/corticalBorer">Мозговой червь</a>
+      <a href="/roles/antagonist/thief">Вор</a>
+      <a href="/roles/antagonist/cultist">Культист</a>
+      <a href="/roles/antagonist/revolution">Революционер</a>
+      <a href="/roles/antagonist/patientzero">Нулевой пациент</a>
+      <a href="/roles/antagonist/spaceninja">Космический ниндзя</a>
+      <a href="/roles/antagonist/pirate">Пират</a>
+      <a href="/roles/antagonist/revenant">Ревенант</a>
+      <a href="/roles/antagonist/ratking">Крысиный король</a>
+      <a href="/roles/antagonist/spacedragon">Космический дракон</a>
+      <a href="/roles/antagonist/guardian">Хранитель</a>
+      <a href="/roles/antagonist/genestealer">Генокрад</a>
+      <a href="/roles/antagonist/terminator">Терминатор</a>
+    </div>
+  </div>
+</div>
