@@ -2,7 +2,7 @@
 title: headofsecurity
 description: 
 published: true
-date: 2026-07-01T23:33:48.956Z
+date: 2026-07-01T23:34:15.447Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:30:04.008Z
@@ -101,116 +101,4 @@ dateCreated: 2026-06-28T01:30:04.008Z
 * Если взять дробовик, ~~наполнить его картечью,~~ и отпилить циркулярной пилой ствол — вы сможете положить его в рюкзак, что станет отличным противодействием пользователям энергетических мечей/щитов.
 * Не забывайте отслеживать жизненные показатели ваших офицеров, вколов им имплант "Трекер". Вы же не хотите получить переодетого предателя в своей команде?
 
-![Профессии экипажа](/role/ss14 mini logo.png)[**Профессии экипажа**](https://js.ss14.su/roles)
-
-**Командование**
-
-[Капитан](/roles/captain)
-[Глава персонала](/roles/headofpersonnel)
-[Глава Службы Безопасности](/roles/headofsecurity)
-[Инспектор](/roles/inspector)
-[Старший Инженер](/roles/chiefengineer)
-[Научный Руководитель](/roles/researchdirector)
-[Старший Медицинский Офицер](/roles/chiefmedicalofficer)
-[Квартирмейстер](/roles/quartermaster)
-
-**Центральное Командование**
-
-[Представитель ЦК](/roles/representativeofcc)
-[Отряд Быстрого Реагирования](/roles/emergencyresponseteam)
-[Отряд Смерти](/roles/deathsquad)
-
-**Служба безопасности**
-
-[Глава Службы Безопасности](/roles/headofsecurity)
-[Смотритель](/roles/warden)
-[Ветеран](/roles/veteran)
-[Офицер](/roles/officer)
-[Детектив](/roles/detective)
-[Кадет](/roles/cadet)
-
-**Инженерный отдел**
-
-[Старший Инженер](/roles/chiefengineer)
-[Бригадир](/roles/brigadier)
-[Инженер](/roles/engineer)
-[Атмосферный техник](/roles/atmospherictechnician)
-[Технический ассистент](/roles/technicalassistant)
-
-**Отдел Исследований**
-
-[Научный Руководитель](/roles/researchdirector)
-[Ведущий исследователь](/roles/leadresearcher)
-[Учёный](/roles/scientist)
-[Научный ассистент](/roles/researchassistant)
-
-**Медицинский отдел**
-
-[Старший Медицинский Офицер](/roles/chiefmedicalofficer)
-[Медицинский офицер](/roles/medicalofficer)
-[Парамедик](/roles/paramedic)
-[Химик](/roles/chemist)
-[Врач](/roles/doctor)
-[Интерн](/roles/intern)
-
-**Отдел снабжения**
-
-[Квартирмейстер](/roles/quartermaster)
-[Охотник](/roles/hunter)
-[Утилизатор](/roles/utilizer)
-[Грузчик](/roles/loader)
-
-**Отдел юстиции**
-
-[Инспектор](/roles/inspector)
-[Юрист](/roles/lawyer)
-
-**Сервисный отдел**
-
-[Глава персонала](/roles/headofpersonnel)
-[Ассистент](/roles/assistant)
-[Сервисный работник](/roles/serviceworker)
-[Ботаник](/roles/botanist)
-[Шеф-повар](/roles/chef)
-[Бармен](/roles/barman)
-[Уборщик](/roles/janitor)
-[Клоун](/roles/clown)
-[Мим](/roles/mime)
-[Зоотехник](/roles/zootechnik)
-[Боксёр](/roles/boxer)
-[Репортёр](/roles/reporter)
-[Священник](/roles/priest)
-[Библиотекарь](/roles/librarian)
-[Музыкант](/roles/musician)
-
-**Спиритический отдел**
-
-[Призрак](/roles/ghost)
-[Мышь](/roles/mouse)
-[Гамлет](/roles/hamlet)
-[Ремилия](/roles/remilia)
-
-**Синтетики**
-
-[Киборг](/roles/cyborg)
-[пИИ](/roles/personalai)
-[Дрон техобслуживания](/roles/maintenancedrone)
-[Искусственный Интеллект](/roles/ai)
-
-**Антагонисты**
-
-[Предатель](/roles/traitor)
-[Ядерный оперативник](/roles/nuclearoperative)
-[Мозговой червь](/roles/corticalBorer)
-[Вор](/roles/thief)
-[Культист](/roles/cultist)
-[Революционер](/roles/revolution)
-[Нулевой пациент](/roles/patientzero)
-[Космический ниндзя](/roles/spaceninja)
-[Пират](/roles/pirate)
-[Ревенант](/roles/revenant)
-[Крысиный король](/roles/ratking)
-[Космический дракон](/roles/spacedragon)
-[Хранитель](/roles/guardian)
-[Генокрад](/roles/genestealer)
-[Терминатор](/roles/terminator)
+<include path='roles/template-role-list'></include>
