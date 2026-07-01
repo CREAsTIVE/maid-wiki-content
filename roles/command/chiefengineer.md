@@ -2,7 +2,7 @@
 title: chiefengineer
 description: 
 published: true
-date: 2026-07-01T23:41:00.453Z
+date: 2026-07-01T23:42:12.933Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T01:29:41.256Z
@@ -12,7 +12,7 @@ dateCreated: 2026-06-28T01:29:41.256Z
          department-color='command'
          department-name='Командование'
          department-url='roles/command'
-         char-img='roles/command/cheifengineer/char.png'
+         char-img='roles/command/chiefengineer/char.png'
          name='Старший Инженер'
          prop-difficulty="Сложная"
          prop-responsibilities='Управлять инженерным отделом и следить за сохранностью станции.'
